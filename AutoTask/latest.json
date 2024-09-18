@@ -1,7 +1,7 @@
 {
                     "applicationId": "com.allin18.auto.task4",
                     "versionCode": 1,
-                    "versionName": "0.1.1",
+                    "versionName": "0.1.2",
                     "buildType": "release",
                     "outputFile": "AutoTask.apk"
                 }
