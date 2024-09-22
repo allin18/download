@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body#my-body{
+    width: 100vw;
+    height: 100vh !important;
+    overflow: hidden;
+    position: relative;
+}
+.chart{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.chart_1{
+    z-index: 1;
+    display: none;
+}
+.chart_2{
+    z-index: 2;
+    display: none;
+}
+.chart_3{
+    z-index: 3;
+    display: none;
+}
+.chart_4{
+    z-index: 4;
+    display: none;
+}

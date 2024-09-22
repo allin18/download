@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body#my-body{
+    width: 100vw;
+    height: 100vh !important;
+    overflow: hidden;
+    position: relative;
+}
+.bg{
+    width: 100%;
+    display: block;
+}
+.popup-button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: transparent;
+    width: 16%;
+    height: 12%;
+    cursor: pointer;
+}
+.popup-button-1{
+    top: 10%;
+    left: 19%;
+}
+.popup-button-2{
+    top: 28%;
+    left: 18%;
+}
+.popup-button-3{
+    top: 46%;
+    left: 19%;
+}
+.popup-button-4{
+    top: 64%;
+    left: 19%;
+}
+.popup-button-5{
+    top: 82%;
+    left: 19%;
+}
+
+
+.popup-button-6{
+    top: 13%;
+    left: 65%;
+}
+.popup-button-7{
+    top: 35%;
+    left: 65%;
+}
+.popup-button-8{
+    top: 56%;
+    left: 65%;
+}
+.popup-button-9{
+    top: 78%;
+    left: 65%;
+}
+
+
+.swal2-popup{
+    padding: 0;
+    background: transparent;
+}
+.swal2-popup img{
+    margin: 0;
+    display: block;
+    width: 100%;
+}
