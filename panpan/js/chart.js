@@ -1,7 +1,8 @@
 document.body.addEventListener('click', function (event) {
   if (event.target.className.indexOf('chart_') > -1) {
     var num = Number(event.target.className.split('chart_').pop())
-    if (num === 4) {
+    console.log(num)
+    if (num === 5) {
       for (var i = 1; i < num + 1; i++) {
         document.querySelector('.chart_' + i).style.display = 'none'
       }

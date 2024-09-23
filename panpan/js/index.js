@@ -4,7 +4,7 @@ document.body.addEventListener('click', function (event) {
         var isLeft = Number(num) < 6
         Swal.fire({
             showConfirmButton: false,
-            imageUrl: "./img/popup_" + num + ".png",
+            imageUrl: "./img/index_popup_" + num + ".png",
             width: window.innerWidth * 0.8,
             showClass: {
                 popup: `

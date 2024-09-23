@@ -21,6 +21,8 @@ body#my-body{
     width: 16%;
     height: 12%;
     cursor: pointer;
+    outline: 0;
+    border: 0;
 }
 .popup-button-1{
     top: 10%;
