@@ -3,8 +3,11 @@
     padding: 0;
 }
 body#my-body{
+    overflow: hidden;
+}
+.content{
     width: 100vw;
-    height: 100vh !important;
+    /* height: 100vh !important; */
     overflow: hidden;
     position: relative;
 }
@@ -12,6 +15,26 @@ body#my-body{
     width: 100%;
     display: block;
 }
+.bg-2{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -4%;
+    margin: auto;
+    width: 28%;
+    display: block;
+    z-index: 1;
+}
+.bg-3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    z-index: 2;
+}
+
+
 .popup-button{
     position: absolute;
     top: 0;
@@ -23,43 +46,57 @@ body#my-body{
     cursor: pointer;
     outline: 0;
     border: 0;
+    z-index: 3;
+    background-image: url(../img/index_popup_bg.gif);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: 103%;
 }
+
+
+
 .popup-button-1{
-    top: 10%;
-    left: 19%;
+    top: 8%;
+    left: 17.5%;
+    background-position: -4%;
 }
 .popup-button-2{
-    top: 28%;
-    left: 18%;
+    top: 24%;
+    left: 17.5%;
+    background-position: -4%;
 }
 .popup-button-3{
-    top: 46%;
-    left: 19%;
+    top: 40%;
+    left: 17.5%;
+    background-position: -4%;
 }
 .popup-button-4{
-    top: 64%;
-    left: 19%;
+    top: 55%;
+    left: 17.5%;
+    background-position: -4%;
 }
 .popup-button-5{
-    top: 82%;
-    left: 19%;
+    top: 72%;
+    left: 17.5%;
+    background-position: -4%;
 }
+
 
 
 .popup-button-6{
-    top: 13%;
+    top: 11%;
     left: 65%;
 }
 .popup-button-7{
-    top: 35%;
+    top: 30%;
     left: 65%;
 }
 .popup-button-8{
-    top: 56%;
+    top: 49%;
     left: 65%;
 }
 .popup-button-9{
-    top: 78%;
+    top: 68%;
     left: 65%;
 }
 
