@@ -5,8 +5,8 @@ document.body.addEventListener('click', function (event) {
     if (num === 5) {
       for (var i = 1; i < num + 1; i++) {
         document.querySelector('.chart_' + i).style.display = 'none'
-        var timestamp = new Date().getTime();
-        document.querySelector('.chart_1').src = document.querySelector('.chart_1').src + '?d=' + timestamp
+        // var timestamp = new Date().getTime();
+        // document.querySelector('.chart_1').src = document.querySelector('.chart_1').src + '?d=' + timestamp
       }
     } else {
       for (var i = 1; i < num + 2; i++) {
